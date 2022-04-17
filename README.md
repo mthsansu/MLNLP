@@ -1,5 +1,5 @@
 # Machine Learning for Natural Language Processing
-## ENSAE 2022
+## Mathis SANSU and Yasmine HOURI - ENSAE 2022
 ### Instructor and Lecturer: Benjamin Muller
 ### Lab supervisor: Roman Castagne
 
