@@ -1,4 +1,4 @@
-# Machine Learning for Natural Language Processing
+# WORK IN PROGRESS - Machine Learning for Natural Language Processing
 ## Mathis SANSU and Yasmine HOURI - ENSAE 2022
 ### Instructor and Lecturer: Benjamin Muller
 ### Lab supervisor: Roman Castagne
@@ -24,7 +24,7 @@ Th final database is then composed of around 50 variables (tweets content, metri
 4. Then, we define the emotion labels we intend to use as follows: {0: neutral, 1: negative, 2: positive}.
 5. This being done, we manually annotate a sample of our data of size 1000, in order to fine-tune CamemBERT and adapt it to our corpus.
 6. At this point, we build a task-specific model to perform a sentiment analysis on French textual data, which uses FastText and CamemBERT as word_embedding techniques. We then train it on our manually annotated dataset. In order to do so, we adopt the usual training procedure: we randomly split our data into three sets (train, test and validation), and then train, test and validate on each set respectively. We may want to validate our model on a new dataset, composed of other tweets from French politicians (mayors or others) if relevant.
-7. In order to further evaluate the performance of our model, we compare it to a baseline model, which is the simplest model that can be built to solve this task.
+7. In order to further evaluate the performance of our model, we compare it to a baseline model, which is one of the simplest models that can be built to solve this task.
 8. Finally, we discuss the time and space complexity and cost of our model.
 
 The conclusions of our analyis can be found in the report.
