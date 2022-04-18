@@ -11,10 +11,12 @@ This project is a natural language processing analysis of the emotions expressed
 
 ## Data
 **Tweets by the French members of parliament (MPs) of the 15th legislature in the Vth Republic (2017-2022)**
+
 We create a list of the Twitter handles of MPs thanks to several data sources: database from previous academic research, scraping from website Nosdeputes.fr, and manual updates. This list is saved in a csv file.
 
 We use the Academic Research Product Track V2 API Endpoint of Twitter (https://developer.twitter.com/en/portal/dashboard). We use the R-package ‘academictwitteR’ (https://cran.r-project.org/web/packages/academictwitteR/index.html) to extract all tweets of MPs of the current legislature (2017-2022), using the function ‘get_all_tweets’. We can provide the R code on demand. After merging the database on all MPs, we obtain a complete RDS dataframe, where each line corresponds to a single tweet. From another academic database, we also joined sociodemographic and political variables about MPs. We attached the first 100 lines of this database to this email.
-Th final database is then composed of around 50 variables (tweets content, metrics on tweets, tweets and authors identifiers, sociodemographic and political variables, etc.), one row corresponding to a unique tweet. For now, with a database ranging from May 2017 to December 2021, it counts almost 2M tweets.
+
+The final database is then composed of around 50 variables (tweets content, metrics on tweets, tweets and authors identifiers, sociodemographic and political variables, etc.), one row corresponding to a unique tweet. For now, with a database ranging from May 2017 to December 2021, it counts almost 2M tweets.
 
 ## Key questions
 **Which emotions do MPs express in their tweets? Which words are more frequently linked to which emotions? Are there key periods in time when MPs instrumentalize emotions more than usual (election campaigns, …)? What other elements does CamemBERT shed light on (syntax, …)?**
