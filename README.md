@@ -4,6 +4,7 @@
 ### Lab supervisor: Roman Castagne
 
 Visit https://nlp-ensae.github.io/
+
 Detailed project instructions can be found here: https://docs.google.com/document/d/1ijqISks5L_ioZwJi-VIRx5JLxk01Ao8wLYkN7L-R4RE/edit
 
 This project is a natural language processing analysis of the emotions expressed by the French members of parliament on Twitter.
