@@ -1,1 +1,1 @@
-File containing the data files used in the main analysis
+# Folder containing the data files used in the main analysis
