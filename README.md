@@ -25,8 +25,8 @@ The final database is then composed of around 50 variables (tweets content, metr
 1. First and foremost, we exclude retweets from our database, and work only with tweets and answers to other tweets, all in French.
 2. From this refined database, we extract the three following datasets: {'Tweets_sample_benalla.csv': from April 2018 to August 2018, 'Tweets_sample_CDM.csv': from June 2018 to August 2018, 'Tweets_sample_confinement.csv': from March 2020 to May 2020}. 
 4. Then, we define the emotion labels we intend to use as follows: {0: neutral, 1: negative, 2: positive}, and we manually annotate a sample of our data of size 1000, in order to fine-tune CamemBERT and adapt it to our corpus.
-6. At this point, we build a task-specific model to perform a sentiment analysis on French textual data, which uses FastText and CamemBERT as word_embedding techniques. We then train it on our manually annotated dataset. In order to do so, we adopt the usual training procedure: we randomly split our data into three sets (train, test and validation), and then train, test and validate on each set respectively. We may want to validate our model on a new dataset, composed of other tweets from French politicians (mayors or others) if relevant.
-7. In order to further evaluate the performance of our model, we compare it to a baseline model, which is one of the simplest models that can be built to solve this task.
-8. Finally, we discuss the time and space complexity and cost of our model.
+6. At this point, we build a task-specific model to perform a sentiment analysis on French textual data, which uses FastText and CamemBERT as word_embedding techniques. We then train it on our manually annotated dataset. In order to do so, we adopt the usual training procedure: we randomly split our data into three sets (train, test and validation), and then train, test and validate on each set respectively.
+7. We evaluate the performances of our model with quantitative and qualitative tools.
+8. In order to further evaluate the performance of our model, we compare it to a baseline model, which is one of the simplest models that can be built to solve this task.
 
 The conclusions of our analyis can be found in the report.
