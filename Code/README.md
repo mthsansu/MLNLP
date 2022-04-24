@@ -5,4 +5,4 @@
 - 'Baseline.ipynb': building and running a baseline model to compare with our own task-specific model
 - 'Houri_Sansu_PoliTweets_SentimentAnalysis.ipynb' is the self-contained notebook, compiling all the code
 
-The 'R_Code' folder contains additional R files which were used to work on the data. None of these files is used in the main analysis ran under Python.
+The 'R_Code' folder contains additional R files which were used to work on the data, or to conduct further analyses which are not NLP tasks. None of these files is used in the main analysis ran under Python.
