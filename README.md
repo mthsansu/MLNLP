@@ -1,4 +1,4 @@
-# WORK IN PROGRESS - Machine Learning for Natural Language Processing
+# Parlementarian Sentiment Analysis - Machine Learning for Natural Language Processing
 ## Mathis SANSU and Yasmine HOURI - ENSAE 2022
 ### Instructor and Lecturer: Benjamin Muller
 ### Lab supervisor: Roman Castagne
